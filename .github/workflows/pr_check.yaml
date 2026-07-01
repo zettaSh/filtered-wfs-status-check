@@ -2,10 +2,10 @@ name: PR Check
 
 on:
   pull_request:
-    # branches:
-    #   - 'main'
-    # paths:
-    #   - 'src/**'
+    branches:
+      - 'main'
+    paths:
+      - 'src/**'
 
 jobs:
   pr_check:
